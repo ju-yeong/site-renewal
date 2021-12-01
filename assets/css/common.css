@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500;700;900&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; */
+html{
+    scroll-behavior: smooth !important;
+
+}
+body{
+    position: relative;
+    background-color: #1d1f21;
+    color: #fff;
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.pl-0{
+    padding-left: 0;
+}
+
+/* color setting */
+
+
+.font-white{
+    color: #fff;
+}
+.font-gray{
+    color: #999;
+}
+.font-black{
+    color: #000;
+}
+
+.bg-c-white{
+    background-color: #fff;
+}
+.bg-c-black{
+    background-color: #000;
+}
+
+
+/* /color */
+
+
+/* font setting */
+.weight-300{
+    font-weight: 300;
+}
+.weight-500{
+    font-weight: 500;
+}
+.weight-700{
+    font-weight: 700;
+}
+.weight-900{
+    font-weight: 900;
+}
+
+.text-s{
+    font-size: 14px;
+    line-height: 1.8;
+}
+.text-m{
+    font-size: 26px;
+}
+.text-l{
+    font-size: 58px;
+    line-height: 1.5;
+}
+.text-xl{
+    font-size: 64px;
+    line-height: 1.2;
+}
+
+.line-12{
+    line-height: 1.2;
+}
+.line-15{
+    line-height: 1.5;
+}
+
+/* /font */
+
+/* margin padding setting */
+
+.pt-50{
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.pb-120{
+    padding-bottom: 120px;
+}
+.pb-170{
+    padding-bottom: 170px;
+}
+.mb-180{
+    margin-bottom: 180px;
+}
+.py-240{
+    padding: 240px 0;
+}
+
+/* /margin padding */
+
+.paper{
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px;
+}
+
+
+
+/* media */
+
+@media (max-width: 1200px) {
+    /* .text-s{
+        font-size: 14px;
+        line-height: 1.8;
+    } */
+    .text-m{
+        font-size: 20px;
+    }
+    .text-l{
+        font-size: 36px;
+        line-height: 1.5;
+    }
+    .text-xl{
+        font-size: 48px;
+    }
+    
+}
+@media (max-width:800px) {
+    .text-xl{
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 768px){
+    .pl-0{
+        padding-left: 15px !important;
+    }
+    .pl-5{
+        padding-left: 0 !important;
+    }
+}
+@media (max-width: 400px){
+    .text-xl{
+        font-size: 26px;
+    }
+}
