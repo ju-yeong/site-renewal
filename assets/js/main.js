@@ -15,7 +15,7 @@ function usText2() {
     }, 3500);
 }
 
-// usText1();
+usText1();
 
 // scroll event
 

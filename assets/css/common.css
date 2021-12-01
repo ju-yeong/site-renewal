@@ -15,9 +15,14 @@ body{
     line-height: 1.7;
 }
 
-.pl-0{
-    padding-left: 0;
+a{
+    color: #fff;
 }
+a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
 
 /* color setting */
 
@@ -121,14 +126,14 @@ body{
         line-height: 1.8;
     } */
     .text-m{
-        font-size: 20px;
+        font-size: 18px;
     }
     .text-l{
         font-size: 36px;
         line-height: 1.5;
     }
     .text-xl{
-        font-size: 48px;
+        font-size: 52px;
     }
     
 }

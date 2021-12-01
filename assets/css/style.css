@@ -139,6 +139,8 @@ video{
 
 /* us end */
 
+/* paper */
+
 .paper1{
     background-image: url(../image/main_paper_01.png);
 }
@@ -149,7 +151,31 @@ video{
     background-image: url(../image/main_paper_03.png);
 }
 
+/* paper end */
 
+
+.more-btn{
+    display: block;
+    width: 100%;
+    max-width: 590px;
+    padding: 20px 0;
+    text-align: center;
+    transition: 0.5s;
+}
+.experience .more-btn{
+    border: 1px solid #fff;
+}
+.experience .more-btn:hover{
+    color: #000;
+    background-color: #fff;
+}
+.news .more-btn{
+    border: 1px solid #000;
+}
+.news .more-btn:hover{
+    color: #fff;
+    background-color: #000;
+}
 
 
 
@@ -161,15 +187,15 @@ video{
 
     .us-text-main div:nth-of-type(1) p::before{
         top: 10px;
-        height: 50px;
+        height: 60px;
     }
     .us-text-main div:nth-of-type(2) p::before{
         top: 10px;
-        height: 50px;
+        height: 60px;
     }
     .us-text-main div:nth-of-type(3) p::before{
         top: 10px;
-        height: 50px;
+        height: 60px;
     }
 }
 
