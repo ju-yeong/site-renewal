@@ -6,8 +6,8 @@ html{
 }
 body{
     position: relative;
-    background-color: #1d1f21;
-    color: #fff;
+    /* background-color: #1d1f21;
+    color: #fff; */
 
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 900;
@@ -33,12 +33,19 @@ a:hover{
 .font-gray{
     color: #999;
 }
+.font-dark-gray{
+    color: #444;
+}
 .font-black{
     color: #000;
 }
 
 .bg-c-white{
     background-color: #fff;
+}
+.bg-c-gray{
+    background-color: #1d1f21;
+    color: #fff;
 }
 .bg-c-black{
     background-color: #000;
@@ -89,10 +96,16 @@ a:hover{
 
 /* margin padding setting */
 
+.pb-25{
+    padding-bottom: 25px;
+}
 .pt-50{
     margin-top: 50vh;
     transform: translateY(-50%);
     width: 100%;
+}
+.pb-90{
+    padding-bottom: 90px;
 }
 .pb-120{
     padding-bottom: 120px;
@@ -116,6 +129,10 @@ a:hover{
     height: 300px;
 }
 
+.title{
+    position: sticky;
+    top: 240px;
+}
 
 
 /* media */
@@ -138,6 +155,9 @@ a:hover{
     
 }
 @media (max-width:800px) {
+    .text-l{
+        font-size: 26px;
+    }
     .text-xl{
         font-size: 38px;
     }
@@ -152,6 +172,9 @@ a:hover{
     }
 }
 @media (max-width: 400px){
+    .text-l{
+        font-size: 20px;
+    }
     .text-xl{
         font-size: 26px;
     }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>renewer</title>
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
@@ -32,7 +32,7 @@
                         <a href="#ask" class="nav-link">문의</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">소식</a>
+                        <a href="#news" class="nav-link">소식</a>
                     </li>
                 </ul>
             </div>
@@ -43,7 +43,7 @@
     <div class="video container-fluid">
         <div class="row pt-50 position-fixed">
             <div class="col-md-6"></div>
-            <div class="video-text col-md-6 text-l">
+            <div class="video-text col-md-6 text-xl">
                 <p>EMN</p>
                 <p>DIA TV</p>
             </div>
@@ -59,7 +59,7 @@
     <div class="main" data-spy="scroll" data-target="#navbar" data-offset="0">
 
 
-        <div id="us" class="us container-fluid">
+        <div id="us" class="us container-fluid bg-c-gray">
             <div class="row py-240">
                 <div class="col-md-6">
                     <p class="text-xl pl-5 pb-5">우리는</p>
@@ -116,30 +116,36 @@
         <div class="paper paper1">
         </div>
         
-        <div id="experience" class="experience container-fluid">
+        <div id="experience" class="experience container-fluid bg-c-gray">
             <div class="row py-240">
                 <div class="col-md-6">
-                    <p class="text-xl pl-5 pb-120">경험</p>
+                    <p class="title text-xl pl-5">경험</p>
                 </div>
                 <div class="col-md-6 pl-0">
                     <div class="ex-wrap pb-170">
-                        <div class="text-xl pb-5 ">
-                            ENM
-                            <br>
-                            DIA TV
-                        </div>
-                        <div class="text-m line-12 pb-5">
-                            <p>브랜딩</p>
-                            <p>기획 / UX 라이팅</p>
-                            <p>인터렉션</p>
-                            <p>프론트엔드개발</p>
-                        </div>
-                        <div class="text-s weight-500">
-                            자세히보기
-                            <span class="xi-location-arrow"></span>
+                        <img class="ex-img1 ex-img" src="./assets/image/list_over1.png" alt="enm dia tv">
+                        <div>
+                            <div class="text-xl pb-5 ">
+                                ENM
+                                <br>
+                                DIA TV
+                            </div>
+                            <div class="text-m line-12 pb-5">
+                                <p>브랜딩</p>
+                                <p>기획 / UX 라이팅</p>
+                                <p>인터렉션</p>
+                                <p>프론트엔드개발</p>
+                            </div>
+                            <div class="text-s weight-500">
+                                <a href="#" onclick = "return false;">
+                                    자세히보기
+                                </a>
+                                <span class="xi-location-arrow"></span>
+                            </div>
                         </div>
                     </div>
                     <div class="ex-wrap pb-170">
+                        <img class="ex-img2 ex-img" src="./assets/image/list_over2.png" alt="enm dia pick">
                         <div class="text-xl pb-5">
                             ENM
                             <br>
@@ -151,28 +157,33 @@
                             <p>디자인 컨설팅</p>
                         </div>
                         <div class="text-s weight-500">
-                            자세히보기
+                            <a href="#" onclick = "return false;">
+                                자세히보기
+                            </a>
                             <span class="xi-location-arrow"></span>
                         </div>
                     </div>
                     <div class="ex-wrap pb-170">
+                        <img class="ex-img3 ex-img" src="./assets/image/list_over3.png" alt="enm dia live">
                         <div class="text-xl pb-5">
                             ENM
                             <br>
                             DIA #LIVE
                         </div>
                         <div class="text-m line-12 pb-5">
-                            <p>기획 / U X라이팅</p>
+                            <p>기획 / UX 라이팅</p>
                             <p>디자인 컨설팅</p>
                             <p>프론트엔드 개발</p>
                             <p>인터렉션</p>
                         </div>
                         <div class="text-s weight-500">
-                            자세히보기
-                            <span class="xi-location-arrow"></span>
+                            <a href="#" onclick = "return false;">
+                                자세히보기
+                                <span class="xi-location-arrow"></span>
+                            </a>
                         </div>
                     </div>
-                    <a href="#" class="more-btn">
+                    <a href="#" onclick = "return false;" class="more-btn">
                         더보기+
                     </a>
                 </div>
@@ -182,17 +193,17 @@
         <div class="paper paper2">
         </div>
         
-        <div id="ask" class="ask container-fluid">
+        <div id="ask" class="ask container-fluid bg-c-gray">
             <div class="row py-240">
                 <div class="col-md-6">
-                    <p class="text-xl pl-5">문의</p>
+                    <p class="title text-xl pl-5">문의</p>
                 </div>
                 <div class="col-md-6 pl-0">
                     <div class="mb-180">
                         <p class="text-xl">
                             hi@npley.com
                         </p>
-                        <p class="text-s">
+                        <p class="text-s weight-500">
                             빠른상담을 위해 프로젝트명, 기간, 예산을 알려주세요
                         </p>
                     </div>
@@ -213,14 +224,17 @@
         <div id="news" class="news container-fluid font-black bg-c-white">
             <div class="row py-240">
                 <div class="col-md-6">
-                    <p class="text-xl pl-5">소식</p>
+                    <p class="title text-l pl-5">소식</p>
                 </div>
                 <div class="col-md-6 pl-0">
-                    <div class="news-wrap pb-170">
+                    <div class="news-wrap pb-90">
                         <div class="text-s weight-500">
                             2021.01.26
+                            <span class="new-box">
+                                new
+                            </span>
                         </div>
-                        <div class="text-xl pb-5">
+                        <div class="text-l pb-5">
                             2021년
                             <br>
                             엔플레이 홈페이지가
@@ -228,11 +242,14 @@
                             리뉴얼 오픈 했습니다.
                         </div>
                     </div>
-                    <div class="news-wrap pb-170">
+                    <div class="news-wrap pb-90">
                         <div class="text-s weight-500">
                             2021.01.26
+                            <span class="new-box">
+                                new
+                            </span>
                         </div>
-                        <div class="text-xl pb-5">
+                        <div class="text-l pb-5">
                             2021년
                             <br>
                             엔플레이 홈페이지가
@@ -240,11 +257,14 @@
                             리뉴얼 오픈 했습니다.
                         </div>
                     </div>
-                    <div class="news-wrap pb-170">
+                    <div class="news-wrap pb-90">
                         <div class="text-s weight-500">
                             2021.01.26
+                            <span class="new-box">
+                                new
+                            </span>
                         </div>
-                        <div class="text-xl pb-5">
+                        <div class="text-l pb-5">
                             2021년
                             <br>
                             엔플레이 홈페이지가
@@ -252,10 +272,44 @@
                             리뉴얼 오픈 했습니다.
                         </div>
                     </div>
+
+                    <a href="#" onclick = "return false;" class="more-btn">
+                        더보기+
+                    </a>
                 </div>
             </div>
         </div>
         
+        
+        <div class="scroll-top font-white">
+            top
+        </div>
+
+
+        <footer class="container-fluid bg-c-white font-dark-gray text-s">
+            <div class="row">
+                <div class="col-md-6 pb-25">
+                    <span class="xi-copyright"></span>
+                    <span>NPLAY</span>
+                </div>
+                <div class="col-md-6 pb-25">
+                    <ul class="row">
+                        <li>
+                            <a href="#" onclick = "return false;">INSTAGRAM</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick = "return false;">FACEBOOK</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick = "return false;">YOUTUBE</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick = "return false;">BEHANCE</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
