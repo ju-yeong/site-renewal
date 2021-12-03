@@ -27,15 +27,14 @@ usText1();
 
 
 let lastScrollTop = 0;
+mainMove = true;
 
 $(window).scroll(function () {
 
     let scrollTop = $(this).scrollTop()
-    let mainMove = false
 
 
     // top btn
-
 
     // console.log("scrolltop:" + scrollTop);
 
@@ -65,20 +64,26 @@ $(window).scroll(function () {
     if (scrollTop < 100) {
         mainMove = true;
     }
-    // console.log(mainMove)
+
+    console.log(`스크롤: ${scrollTop}`)
     if (
-        ((scrollTop > 80) && (scrollTop < 200))
+        ((scrollTop > 150) && (scrollTop < 300))
         && (mainMove === true)
     ) {
         let offset = $('.us').offset();
-        $('html, body').animate({ scrollTop: offset.top }, 400);
-
-        // console.log(`mainMove: ${mainMove}`)
-        // console.log(`scrollTop: ${scrollTop}`)
-
+        $('html, body').animate({ scrollTop: offset.top }, 0);
+        
         mainMove = false;
+
+        console.log(`mainMove: ${mainMove}`)
+        console.log(`scrollTop: ${scrollTop}`)
+
+        return mainMove
         // console.log('it working')
     }
+
+    console.log(mainMove)
+
 
     // experience bg img show hide
 
